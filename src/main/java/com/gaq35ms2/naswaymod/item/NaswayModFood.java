@@ -1,4 +1,4 @@
-package com.gaq35ms2.naswaymod.items;
+package com.gaq35ms2.naswaymod.item;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
