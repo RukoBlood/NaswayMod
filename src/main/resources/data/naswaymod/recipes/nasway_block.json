@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "naswaymod:nasway"
+    }
+  },
+  "result": {
+    "item": "naswaymod:nasway_block",
+    "count": 1
+  }
+}

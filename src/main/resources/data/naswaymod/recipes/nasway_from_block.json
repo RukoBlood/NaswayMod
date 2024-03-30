@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "naswaymod:nasway_block"
+    }
+  ],
+  "result": {
+    "item":"naswaymod:nasway",
+    "count": 9
+  }
+}

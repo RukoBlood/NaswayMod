@@ -1,4 +1,4 @@
-package com.gaq35ms2.naswaymod.blocks;
+package com.gaq35ms2.naswaymod.block;
 
 import com.gaq35ms2.naswaymod.NaswayMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

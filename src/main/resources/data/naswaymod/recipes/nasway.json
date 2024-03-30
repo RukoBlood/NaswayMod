@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#@#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "@":{
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "naswaymod:nasway",
+    "count": 4
+  }
+}

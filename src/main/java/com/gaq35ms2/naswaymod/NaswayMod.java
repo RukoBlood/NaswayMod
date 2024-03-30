@@ -1,6 +1,6 @@
 package com.gaq35ms2.naswaymod;
 
-import com.gaq35ms2.naswaymod.blocks.NaswayModBlock;
+import com.gaq35ms2.naswaymod.block.NaswayModBlock;
 import com.gaq35ms2.naswaymod.item.NaswayModItem;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;

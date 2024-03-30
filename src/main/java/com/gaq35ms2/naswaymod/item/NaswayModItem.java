@@ -1,7 +1,7 @@
 package com.gaq35ms2.naswaymod.item;
 
 import com.gaq35ms2.naswaymod.NaswayMod;
-import com.gaq35ms2.naswaymod.blocks.NaswayModBlock;
+import com.gaq35ms2.naswaymod.block.NaswayModBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
