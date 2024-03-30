@@ -16,7 +16,7 @@ import net.minecraft.util.Identifier;
 public class NaswayModBlock {
 
     public static final Block Nasway_Block = LRegisterBlock("nasway_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.NETHERRACK).mapColor(MapColor.GREEN).sounds(BlockSoundGroup.GRASS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.DIRT).mapColor(MapColor.GREEN).strength(0.4f,2f).sounds(BlockSoundGroup.GRASS)));
     private static Block LRegisterBlock(String name, Block block){
         LRegisterBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(NaswayMod.MOD_ID, name), block);
