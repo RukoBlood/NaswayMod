@@ -2,22 +2,25 @@
   "schemaVersion": 1,
   "id": "naswaymod",
   "version": "${version}",
-
   "name": "NaswayMod",
   "description": "Этот мод добавляет насвачик в игру. Стань абу бандитом.",
-  "authors": [],
-  "contact": {},
-
+  "authors": [
+    "ga_q35m_s2"
+  ],
+  "contact": {
+    "repo": "https://github.com/RukoBlood/naswaymod"
+  },
   "license": "MIT",
   "icon": "assets/naswaymod/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-
+  "entrypoints": {
+    "main": [
+      "com.gaq35ms2.naswaymod.NaswayMod"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
