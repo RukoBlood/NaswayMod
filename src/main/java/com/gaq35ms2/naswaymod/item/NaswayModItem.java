@@ -2,7 +2,6 @@ package com.gaq35ms2.naswaymod.item;
 
 import com.gaq35ms2.naswaymod.NaswayMod;
 import com.gaq35ms2.naswaymod.block.NaswayModBlock;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -12,7 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class NaswayModItem {
-    public static final Item Nasway = LRegisterItem("nasway", new Item(new FabricItemSettings().food(NaswayModFood.Nasway)));
+    public static final Item Nasway = LRegisterItem("nasway", NaswayModItemData.Nasway);
     private static void LAddItemToFoodGroup(FabricItemGroupEntries entries){
         entries.add(Nasway);
     }
