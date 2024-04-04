@@ -1,4 +1,6 @@
 {
   "item.naswaymod.nasway": "Nasway",
-  "block.naswaymod.nasway_block": "Nasway Block"
+  "block.naswaymod.nasway_block": "Nasway Block",
+  "item.naswaymod.nasway_elite": "Elite Nasway",
+  "block.naswaymod.nasway_elite_block": "Elite Nasway Block"
 }

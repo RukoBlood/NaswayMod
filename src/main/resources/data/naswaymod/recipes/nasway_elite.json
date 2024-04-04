@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#@#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "@":{
+      "item": "naswaymod:nasway"
+    }
+  },
+  "result": {
+    "item": "naswaymod:nasway_elite",
+    "count": 1
+  }
+}

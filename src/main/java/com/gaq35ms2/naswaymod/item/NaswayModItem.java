@@ -12,11 +12,14 @@ import net.minecraft.util.Identifier;
 
 public class NaswayModItem {
     public static final Item Nasway = LRegisterItem("nasway", NaswayModItemData.Nasway);
+    public static final Item Nasway_Elite = LRegisterItem("nasway_elite", NaswayModItemData.Nasway_Elite);
     private static void LAddItemToFoodGroup(FabricItemGroupEntries entries){
         entries.add(Nasway);
+        entries.add(Nasway_Elite);
     }
     private static void LAddItemToBlockGroup(FabricItemGroupEntries entries){
         entries.add(NaswayModBlock.Nasway_Block);
+        entries.add(NaswayModBlock.Nasway_Elite_Block);
     }
     private static Item LRegisterItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(NaswayMod.MOD_ID, name), item);

@@ -6,4 +6,6 @@ import net.minecraft.item.Item;
 public class NaswayModItemData {
     public static final Item Nasway = new Item(new FabricItemSettings()
             .food(NaswayModFood.Nasway));
+    public static final Item Nasway_Elite = new Item(new FabricItemSettings()
+            .food(NaswayModFood.Nasway_Elite));
 }

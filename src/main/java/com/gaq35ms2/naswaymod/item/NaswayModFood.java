@@ -14,4 +14,15 @@ public class NaswayModFood {
             .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 100, 2), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200,2), 0.1f)
             .build();
+
+    public static final FoodComponent Nasway_Elite = new FoodComponent.Builder()
+            .snack()
+            .alwaysEdible()
+            .hunger(6)
+            .saturationModifier(3.6f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 250), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 250, 2), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200,2), 0.1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 250, 1),1f)
+            .build();
 }

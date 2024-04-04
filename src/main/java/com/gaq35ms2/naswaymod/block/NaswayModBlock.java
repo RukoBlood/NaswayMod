@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class NaswayModBlock {
 
     public static final Block Nasway_Block = LRegisterBlock("nasway_block", NaswayModBlockData.Nasway_block);
-
+    public static final Block Nasway_Elite_Block = LRegisterBlock("nasway_elite_block", NaswayModBlockData.Nasway_Elite_block);
     private static Block LRegisterBlock(String name, Block block){
         LRegisterBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(NaswayMod.MOD_ID, name), block);
