@@ -1,11 +1,10 @@
 package com.gaq35ms2.naswaymod.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 
 public class NaswayModItemData {
-    public static final Item Nasway = new Item(new FabricItemSettings()
+    public static final Item Nasway = new Item(new Item.Settings()
             .food(NaswayModFood.Nasway));
-    public static final Item Nasway_Elite = new Item(new FabricItemSettings()
+    public static final Item Nasway_Elite = new Item(new Item.Settings()
             .food(NaswayModFood.Nasway_Elite));
 }
