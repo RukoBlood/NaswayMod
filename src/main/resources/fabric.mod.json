@@ -3,12 +3,13 @@
   "id": "naswaymod",
   "version": "${version}",
   "name": "NaswayMod",
-  "description": "Этот мод добавляет насвачик в игру. Стань абу бандитом.",
+  "description": "A nasway mod for minecraft",
   "authors": [
     "ga_q35m_s2"
   ],
   "contact": {
-    "repo": "https://github.com/RukoBlood/naswaymod"
+    "repo": "https://github.com/RukoBlood/naswaymod",
+    "homepage": "https://modrinth.com/mod/naswaymod"
   },
   "license": "MIT",
   "icon": "assets/naswaymod/icon.png",
