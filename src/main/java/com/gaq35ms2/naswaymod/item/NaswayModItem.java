@@ -13,9 +13,11 @@ import net.minecraft.util.Identifier;
 public class NaswayModItem {
     public static final Item Nasway = LRegisterItem("nasway", NaswayModItemData.Nasway);
     public static final Item Nasway_Elite = LRegisterItem("nasway_elite", NaswayModItemData.Nasway_Elite);
+    //public static final Item Nasway_Bad = LRegisterItem("nasway_bad", NaswayModItemData.Nasway_Bad);
     private static void LAddItemToFoodGroup(FabricItemGroupEntries entries){
         entries.add(Nasway);
         entries.add(Nasway_Elite);
+        //entries.add(Nasway_Bad);
     }
     private static void LAddItemToBlockGroup(FabricItemGroupEntries entries){
         entries.add(NaswayModBlock.Nasway_Block);

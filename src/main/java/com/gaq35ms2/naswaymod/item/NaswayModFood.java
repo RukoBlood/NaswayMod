@@ -25,4 +25,14 @@ public class NaswayModFood {
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200,2), 0.1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 250, 1),1f)
             .build();
-}
+
+    //FOR DEV PREVIEW
+//    public static final FoodComponent Nasway_Bad = new FoodComponent.Builder()
+//            .snack()
+//            .alwaysEdible()
+//            .nutrition(1)
+//            .saturationModifier(1f)
+//            .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 600,2), 0.25f)
+//            .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 300, 1), 0.5f)
+//            .build();
+ }

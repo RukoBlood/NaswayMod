@@ -7,4 +7,7 @@ public class NaswayModItemData {
             .food(NaswayModFood.Nasway));
     public static final Item Nasway_Elite = new Item(new Item.Settings()
             .food(NaswayModFood.Nasway_Elite));
+
+//    public static final Item Nasway_Bad = new Item(new Item.Settings()
+//            .food(NaswayModFood.Nasway_Bad));
 }
