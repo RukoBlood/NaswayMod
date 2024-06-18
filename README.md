@@ -15,4 +15,4 @@ For Official Minecraft / TL:
 Put .jar into .minecraft/mods
 
 For Modrinth / AstralRinth:
-Drop .jar in your modpack
+Drop .jar in your modpack **OR** install via Search Tab
