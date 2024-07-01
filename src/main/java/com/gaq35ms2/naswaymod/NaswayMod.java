@@ -10,7 +10,7 @@ public class NaswayMod implements ModInitializer{
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
     @Override
     public void onInitialize(){
-        LOGGER.info("NaswayMod very unstable release");
+        LOGGER.info("NaswayMod Init...");
         NaswayModItem.RegisterItems();
         NaswayModBlock.RegisterBlocks();
     }
