@@ -14,10 +14,10 @@ public class NaswayModBlock {
     public static final Block Nasway_Elite_Block = LRegisterBlock("nasway_elite_block", NaswayModBlockData.Nasway_Elite_block);
     private static Block LRegisterBlock(String name, Block block){
         LRegisterBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(NaswayMod.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(NaswayMod.MOD_ID, name), block);
     }
     private static Item LRegisterBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM, new Identifier(NaswayMod.MOD_ID, name), new BlockItem(block, new Item.Settings()));
+        return Registry.register(Registries.ITEM, Identifier.of(NaswayMod.MOD_ID, name), new BlockItem(block, new Item.Settings()));
     }
     public static void RegisterBlocks(){
         NaswayMod.LOGGER.info("Registering " + NaswayMod.MOD_ID + " Blocks...");

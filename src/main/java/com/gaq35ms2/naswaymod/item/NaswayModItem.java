@@ -24,7 +24,7 @@ public class NaswayModItem {
         entries.add(NaswayModBlock.Nasway_Elite_Block);
     }
     private static Item LRegisterItem(String name, Item item){
-        return Registry.register(Registries.ITEM, new Identifier(NaswayMod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, Identifier.of(NaswayMod.MOD_ID, name), item);
     }
     public static void RegisterItems() {
         NaswayMod.LOGGER.info("Registering " + NaswayMod.MOD_ID + " Items...");
